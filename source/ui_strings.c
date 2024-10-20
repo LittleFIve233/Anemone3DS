@@ -2118,7 +2118,7 @@ const Language_s language_SChinese = {
             },
             {
                 "\uE07B 仅安装主题BGM",
-                "\uE07C 不安装主题BGM"
+                "\uE07C 仅安装主题背景"
             },
             {
                 NULL,
@@ -2179,7 +2179,7 @@ const Language_s language_SChinese = {
             .info_line = "\uE001 退出导出菜单",
             .instructions = {
                 {
-                    "\uE079 导出现在的主题",
+                    "\uE079 导出当前主题",
                     "\uE07A 导出所有主题"
                 },
                 {
@@ -2200,7 +2200,7 @@ const Language_s language_SChinese = {
     .camera = 
     {
         .quit = "按 \uE005 退出",
-        .thread_error = "创建使用相机线程失败\n请把此问题报告给开发者",
+        .thread_error = "创建调用相机线程失败\n请把此问题报告给开发者",
         .zip_not_theme_splash = "下载的zip既不是主题也不是开机图画",
         .file_not_zip = "下载的文件不是zip",
         .download_failed = "下载失败",
@@ -2213,10 +2213,10 @@ const Language_s language_SChinese = {
         .no_themes = "未发现主题",
         .no_splashes = "未发现开机图画",
         .qr_download = "按 \uE005 从QR码下载",
-        .switch_splashes = "按 \uE004 查看开机图画",
+        .switch_splashes = "按 \uE004 选择开机图画",
         .switch_themes = "按 \uE004 查看主题",
-        .quit = "或        退出",
-        .start_pos = 162, // Adjust x pos of start glyph to line up with quit string
+        .quit = "或         退出",
+        .start_pos = 164, // Adjust x pos of start glyph to line up with quit string
         .by = "作者： ",
         .selected = "已选:",
         .sel = "已选:",
@@ -2236,7 +2236,7 @@ const Language_s language_SChinese = {
         .install_theme = "正在安装主题...",
         .install_shuffle = "正在安装随机主题...",
         .install_bgm = "正在安装仅主题BGM...",
-        .install_no_bgm = "正在安装不带BGM主题...",
+        .install_no_bgm = "正在安装仅主题背景...",
         .downloading = "下载中...",
         .checking_dl = "正在检查下载的文件...",
         .delete_sd = "正在从SD卡删除...",
@@ -2450,7 +2450,7 @@ const Language_s language_SChinese = {
     .splashes =
     {
         .no_splash_found = "没有发现splash.bin或splashbottom.bin\n这是否是开机图画?",
-        .splash_disabled = "WARNING: 未在Luma3DS配置界面启用",
+        .splash_disabled = "WARNING: 未在Luma3DS配置界面启用此功能",
     },
     .themes =
     {
